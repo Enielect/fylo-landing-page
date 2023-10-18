@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* span {
+  display: block;
+} */
+
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+img,
+ion-icon {
+  display: block;
+}
+
+/* testimonial: hsl(219, 30%, 18%)
+footer: hsl(216, 53%, 9%)
+main: hsl(218, 28%, 13%)
+signUp: hsl(217, 28%, 15%)
+
+font-size: 14px
+
+//heading: raleway
+//body: opansans */
+
+/* sizes: 0, 0.5, 1 - 10, [1.5-3.5], 11, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 72, 80, 96,
+
+1 = .25rem = 4px */
