@@ -1,20 +1,21 @@
 /** @type {import('tailwindcss').Config} */
+//eslint-disable-next-line
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
         testimonial: "hsl(219, 30%, 18%)",
-        footer: "hsl(216, 53%, 9%)",
-        main: "hsl(218, 28%, 13%)",
-        signUp: "hsl(217, 28%, 15%)",
-        button: "hsl(198, 60%, 50%)"
+        footer: "#0c1524",
+        main: "#181e2a",
+        signUp: "#1b2330",
+        button: "hsl(198, 60%, 50%)",
       },
       width: {
-        100: "430px"
+        100: "430px",
       },
       height: {
-        100: '410px'
+        100: "410px",
       },
       fontFamily: {
         raleway: ["Raleway"],
