@@ -1,5 +1,55 @@
 @tailwind base;
 @tailwind components;
+/* .curvy {
+  background-image: url("./images/bg-curvy-mobile.svg")
+    /* ,
+    linear-gradient(#181e2a, #187e2a); */
+/*
+  background-position: 0 310px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+} 
+
+*/
+
+@layer components {
+  .second {
+    background: -webkit-linear-gradient(
+      90deg,
+      #181e2a 16%,
+      rgba(0, 0, 0, 0.001) 16%
+    );
+  }
+}
+
+@layer components {
+  .transparent {
+    background-image: -webkit-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.001),
+      rgba(0, 0, 0, 0.002) 80%
+    );
+  }
+}
+
+@layer components {
+  .secondBig {
+    background: -webkit-linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0.001) 20%,
+      #181e2a 20%
+    ) !important;
+  }
+}
+
+/* .secondBig {
+  background: -webkit-linear-gradient(90deg, );
+} */
+
+.signup {
+  background: -webkit-linear-gradient(270deg, #181e2a 50%, #0c1524 50%);
+}
 @tailwind utilities;
 
 /* span {
@@ -23,6 +73,15 @@ ion-icon {
 footer: hsl(216, 53%, 9%)
 main: hsl(218, 28%, 13%)
 signUp: hsl(217, 28%, 15%)
+
+
+//my custom colors
+
+signup: #1b2330
+below the bezier curve: #181e2a
+footer: #0c1524
+free button: #40b1d1
+
 
 font-size: 14px
 
