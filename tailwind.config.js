@@ -7,7 +7,7 @@ export default {
       colors: {
         testimonial: "hsl(219, 30%, 18%)",
         footer: "#0c1524",
-        main: "#181e2a",
+        main: "#181f2b",
         signUp: "#1b2330",
         button: "hsl(198, 60%, 50%)",
       },
@@ -22,6 +22,7 @@ export default {
         openSans: ["Open Sans"],
       },
     },
+    lg: "1200px",
   },
   plugins: [],
 };
