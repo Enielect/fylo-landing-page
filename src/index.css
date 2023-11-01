@@ -43,6 +43,15 @@
   }
 }
 
+@layer components {
+  .second-md {
+    background:
+     /* #1b2330 */
+     transparent
+     ;
+  }
+}
+
 /* .secondBig {
   background: -webkit-linear-gradient(90deg, );
 } */
