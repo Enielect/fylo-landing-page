@@ -1,12 +1,12 @@
 function FyloWorks() {
   return (
-    <div className="my-44 text-white px-9 md:gap-10 md:flex md:items-center md:mx-[40px]">
+    <div className="my-44 text-white px-9 lg:gap-10 lg:flex lg:items-center lg:mx-[40px]">
       <img
         src="./images/illustration-stay-productive.png"
         alt=""
         className="mx-auto w-[450px] my-20 block"
       />
-      <div className="md:mt-[56px]">
+      <div className="lg:mt-[56px]">
         <h3 className="font-bold text-2xl pb-7">
           Stay productive, wherever you are
         </h3>

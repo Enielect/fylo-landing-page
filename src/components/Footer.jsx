@@ -6,7 +6,7 @@ function Footer() {
         alt="page logo"
         className="w-[250px] pb-16"
       />
-      <div className="md:flex md:gap-[80px] md:items-start">
+      <div className="lg:flex lg:gap-[50px] lg:items-start">
         <div className="basis-[490px]">
           <div className="flex mb-8">
             <img
@@ -38,7 +38,7 @@ function Footer() {
             <p>example@fylo.com</p>
           </div>
         </div>
-        <ul className="flex flex-col gap-6 py-16 md:py-0">
+        <ul className="flex flex-col gap-6 py-16 lg:py-0">
           <li>About Us</li>
           <li>Jobs</li>
           <li>Press</li>
@@ -49,7 +49,7 @@ function Footer() {
           <li>Terms</li>
           <li>Privacy</li>
         </ul>
-        <div className="py-[8rem] flex items-center justify-center gap-4 md:py-0">
+        <div className="py-[8rem] flex items-center justify-center gap-4 lg:py-0">
           <div className="p-2 border rounded-full">
             <ion-icon name="logo-facebook"></ion-icon>
           </div>

@@ -8,13 +8,13 @@ function Signup() {
           extremely generous. If you have any questions, our support team would
           be happy to help you.
         </p>
-        <div className="md:flex md:gap-10 md:my-10 md:items-center">
+        <div className="lg:flex lg:gap-10 lg:my-10 lg:items-center">
           <input
             type="text"
             placeholder="email@example.com"
-            className="px-10 py-5  rounded-full w-full my-9 md:my-0"
+            className="px-10 py-5  rounded-full w-full my-9 lg:my-0"
           />
-          <button className="text-center bg-button mx-auto px-10 py-5 md:mb-0 mb-5 rounded-full w-full md:max-w-[300px] font-bold text-xl">
+          <button className="text-center bg-button mx-auto px-10 py-5 lg:mb-0 mb-5 rounded-full w-full lg:max-w-[300px] font-bold text-xl">
             Get Started For Free
           </button>
         </div>

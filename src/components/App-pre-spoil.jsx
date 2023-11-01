@@ -7,26 +7,25 @@ import Nav from "./components/Nav";
 
 function App() {
   const medium =
-    "md:bg-[url('./images/bg-curvy-desktop.svg')] md:w-screen md:bg-[0_210px] md:bg-contain";
+    "lg:bg-[url('./images/bg-curvy-desktop.svg')] lg:w-screen lg:bg-[0_210px] lg:bg-contain";
   return (
     <div className="bg-signUp">
       {/* <img src='./images/bg-curvy-mobile.svg' alt=""></img> */}
       <Nav />
-      <div className="bg-[url('./images/bg-curvy-mobile.svg')] bg-no-repeat bg-[0_310px] w-screen bg-contain md:transparent ">
-        
-        <div className="second md:bg-signUp">
+      <div className="bg-[url('./images/bg-curvy-mobile.svg')] bg-no-repeat bg-[0_310px] w-screen bg-contain lg:transparent ">
+        <div className="second lg:bg-signUp">
           <img
             src="./images/illustration-intro.png"
             alt=""
             className="py-10 w-100 h-100 mx-auto"
           />
-          <h1 className="text-white text-4xl font-raleway font-bold text-center leading-relaxed px-6 md:w-[670px] md:mx-auto">
+          <h1 className="text-white text-4xl font-raleway font-bold text-center leading-relaxed px-6 lg:w-[670px] lg:mx-auto">
             All your files in one secure location, accessible anywhere
           </h1>
         </div>
       </div>
-      <div className="bg-main md:secondBig">
-        <div className="md:max-w-[740px] text-[rgba(225,225,225,0.9)] md:mx-auto">
+      <div className="bg-main lg:secondBig">
+        <div className="lg:max-w-[740px] text-[rgba(225,225,225,0.9)] lg:mx-auto">
           <p className=" text-xl text-center px-14 pt-8">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends
