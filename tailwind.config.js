@@ -21,8 +21,11 @@ export default {
         raleway: ["Raleway"],
         openSans: ["Open Sans"],
       },
+      screens: {
+        fit: { min: "1025px", max: "1215px" },
+        lg: "1200px",
+      },
     },
-    lg: "1200px",
   },
   plugins: [],
 };

@@ -1,7 +1,7 @@
 function Signup() {
   return (
     <div className="signup py-[200px]">
-      <div className="mx-8 px-10 py-10 text-white bg-signUp  text-center border-solid border-black rounded-[14px] max-w-[1000px] mx-auto">
+      <div className="mx-8 px-10 py-10 text-white bg-signUp  text-center border-solid border-black rounded-[14px] max-w-[1000px] md:mx-10 lg:mx-auto">
         <h2 className="font-bold text-2xl pb-7">Get early access today</h2>
         <p className="text-xl ">
           It only takes a minute to sign up and our free starter tier is
