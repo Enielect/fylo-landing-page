@@ -29,9 +29,9 @@ function Nav() {
           <HiOutlineXMark style={{ fontSize: "3rem" }} />
         </button>
         <div className={`flex flex-col  gap-11 items-center mt-[100px]`}>
-          <div >Features</div>
-          <div>Team</div>
-          <div>Sign In</div>
+          <button>Features</button>
+          <button>Team</button>
+          <button>Sign In</button>
         </div>
       </div>
       <div className="sp:flex sp:gap-6 hidden">
