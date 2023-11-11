@@ -24,6 +24,7 @@ export default {
       screens: {
         fit: { min: "1025px", max: "1215px" },
         lg: "1200px",
+        sp: "700px",
       },
     },
   },
