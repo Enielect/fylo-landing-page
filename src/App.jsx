@@ -9,7 +9,7 @@ function App() {
   const medium =
     "lg:bg-[url('./images/bg-curvy-desktop.svg')] lg:w-screen lg:bg-[0_210px] lg:bg-contain";
   return (
-    <div className="bg-signUp ">
+    <div className="bg-signUp sp:pt-10">
       <Nav />
       <div className="lg:bg-[url('./images/bg-curvy-desktop.svg')] lg:w-screen lg:bg-[0_500px] lg:bg-contain lg:bg-no-repeat lg:z-10">
         {/* <img src='./images/bg-curvy-mobile.svg' alt=""></img> */}
